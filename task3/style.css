@@ -1,0 +1,22 @@
+p {
+    margin: 30px 0 0 30px;
+    font-size: 30px;
+    padding: 40px;
+    border-radius: 50%;
+    color: azure;
+    border: 2px azure solid;
+}
+
+
+p:nth-of-type(odd) {
+    background-color: rgba(217, 255, 0, 0.521);
+}
+
+p:nth-of-type(even) {
+    background-color: rgba(255, 0, 0, 0.452);
+}
+
+body {
+    display: flex;
+    background-color: black;
+}
